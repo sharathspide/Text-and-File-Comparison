@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+.upload-section input[type="file"] {
+    margin: 10px;
+}
+
+.result-section {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    text-align: left;
+}
+.result-section-text{
+    margin-top: 20px;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.diff-added {
+    background-color: #d4ffd4;
+}
+
+.diff-removed {
+    background-color: #ffd4d4;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+}
+.container-flex h1{
+    text-align: center;
+}

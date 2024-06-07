@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Comparison</title>
+    <link rel="stylesheet" href="textcomparison.css">
+</head>
+<body>
+    <div class="container-flex">
+        <div class="container">
+            <h1>Document Comparison</h1>
+            <div class="upload-section">
+                <input type="file" id="file1" accept=".pdf">
+                <input type="file" id="file2" accept=".pdf">
+                <button id="compare">Compare</button>
+            </div>
+            <div id="result" class="result-section"></div>
+        </div>
+        <h1>OR</h1>
+        <div class="container">
+            <h1>text Comparison</h1>
+            <div class="upload-section">
+                <input type="text" id="text1">
+                <input type="text" id="text2">
+                <button id="compare2">Compare</button>
+            </div>
+            <div id="result2" class="result-section-text"></div>
+        </div>
+    </div>    
+    <script src="textcomparison.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/diff_match_patch/20121119/diff_match_patch.js"></script>
+
+</body>
+</html>
